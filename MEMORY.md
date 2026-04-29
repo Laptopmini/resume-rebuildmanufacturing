@@ -1,1 +1,1 @@
-Updated playwright.config.ts baseURL from localhost:3000 to localhost:5173 to match Vite's default port.
+Created vite.config.ts with defineConfig exporting plugins: [react()], base: "/rebuildmanufacturing/", and build: { outDir: "dist" }. File was missing entirely so this is a net-new creation.
