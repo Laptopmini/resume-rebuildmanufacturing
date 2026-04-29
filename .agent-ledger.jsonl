@@ -14,3 +14,4 @@
 {"task": "Create src/lib/basePath.ts", "files_mutated": ["src/lib/basePath.ts"], "summary": "Exported BASE_PATH and withBasePath helper that concatenates paths correctly."}
 {"task": "Create src/lib/motion.ts", "files_mutated": ["src/lib/motion.ts"], "summary": "Exported four named const motion presets."}
 {"task": "Create src/lib/content.ts", "files_mutated": ["src/lib/content.ts"], "summary": "Exported HERO_*, SUBHEAD_*, STATS, EYEBROW_*, EXPERIENCES, SKILLS, EDUCATION, CONTACT, AI_FOOTER_*, WORDMARK_TEXT named consts."}
+{"task": "Create Hairline.tsx component", "files_mutated": ["src/components/Hairline.tsx"], "summary": "Replaced div with hr element to fix a11y lint errors."}

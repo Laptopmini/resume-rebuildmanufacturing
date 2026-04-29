@@ -1,1 +1,1 @@
-Created src/lib/content.ts exporting all named consts per the task spec. Used resume.md for EXPERIENCES, SKILLS, EDUCATION data. CONTACT values match resume.md header. AI_FOOTER strings are descriptive paragraphs as specified since Design Intent text wasn't provided verbatim.
+Fixed Hairline component by replacing `<div role="separator">` with `<hr>` element. The `<hr>` is the semantic HTML element for visual separators, eliminating the need for ARIA role attributes and fixing all three lint/a11y errors.
