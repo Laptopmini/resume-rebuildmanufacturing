@@ -1,1 +1,1 @@
-Updated tsconfig.json: changed module to "ESNext", moduleResolution to "Bundler", added jsx: "react-jsx", lib array with ES2022/DOM/DOM.Iterable, allowSyntheticDefaultImports: true, noEmit: true. Removed outDir and rootDir. Updated include to src/**/*.ts and src/**/*.tsx, exclude to dist/node_modules/tests.
+jest.config.mjs already contains all required changes from previous PRD cycles. No edits needed this cycle.
