@@ -19,3 +19,4 @@
 {"task": "Copy profile.png to public/", "files_mutated": ["public/profile.png"], "summary": "Created public/ dir and copied profile.png into it."}
 {"task": "Delete placeholder source and tests", "files_mutated": [], "summary": "Removed src/index.ts, tests/unit/setup.test.ts, tests/e2e/setup.spec.ts with single rm -f command."}
 {"task": "Create Skills component", "files_mutated": ["src/components/Skills.tsx"], "summary": "Fixed template literal for duration and replaced index key with skill.category."}
+{"task": "Create Education component", "files_mutated": ["src/components/Education.tsx"], "summary": "Created Education.tsx with section, Eyebrow, and mapped EDUCATION list."}

@@ -1,1 +1,1 @@
-Fixed two lint issues in src/components/Skills.tsx: (1) changed string concat to template literal for duration, (2) replaced array index key with skill.category. The lint/suspicious/noArrayIndexKey requires using a stable key - skill.category is unique and appropriate here.
+Created Education.tsx matching task spec exactly. Used `edu.title` as key for list items, rendered `section` with correct data attributes and CSS variables, Eyebrow with EYEBROW_EDU, and mapped EDUCATION to ul>li structure.
