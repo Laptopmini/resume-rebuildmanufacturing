@@ -1,1 +1,1 @@
-Created src/types/css.d.ts with the ambient module declaration for CSS imports.
+Disabled biome linter rules `noUnknownAtRules` and `noImportantStyles` in the CSS override section of biome.json. The @tailwind directives require `tailwindDirectives: true` parser setting and the rule to be disabled. The `!important` in reduce-motion media query is a legitimate accessibility use case.
