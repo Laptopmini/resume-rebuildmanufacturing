@@ -12,3 +12,4 @@
 {"task": "Create CSS ambient types declaration", "files_mutated": ["src/types/css.d.ts"], "summary": "Declared module \"*.css\" for TypeScript CSS import support."}
 {"task": "Create src/styles/globals.css", "files_mutated": ["biome.json"], "summary": "Added CSS-specific linter overrides to biome.json to allow @tailwind directives and !important in reduce-motion query."}
 {"task": "Create src/lib/basePath.ts", "files_mutated": ["src/lib/basePath.ts"], "summary": "Exported BASE_PATH and withBasePath helper that concatenates paths correctly."}
+{"task": "Create src/lib/motion.ts", "files_mutated": ["src/lib/motion.ts"], "summary": "Exported four named const motion presets."}

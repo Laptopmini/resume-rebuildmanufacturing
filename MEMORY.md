@@ -1,1 +1,1 @@
-Created src/lib/basePath.ts exporting BASE_PATH constant and withBasePath helper function. The helper handles both absolute paths (starting with "/") and relative paths by prepending "/" before concatenation.
+Created src/lib/motion.ts exporting four motion presets as const objects: sectionEntrance, cardHover, wordmarkBreathe, and statCountUp. Each has exact duration and easing values as specified.
