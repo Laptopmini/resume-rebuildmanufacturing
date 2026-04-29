@@ -1,1 +1,1 @@
-Updated BASE_PATH constant in src/lib/basePath.ts from "/rebuildmanufacturing" to "/resume-rebuildmanufacturing" (no trailing slash). withBasePath function remains unchanged.
+Added missing exports to src/lib/content.ts: AI_FOOTER_* constants (EYEBROW, HEADLINE, BODY, WORKFLOW, REPO_LABEL, REPO_URL, RALPH_URL), SKILLS array, and STATS array. Fixed implicit any type errors in Skills.tsx and Stats.tsx by ensuring the typed arrays are imported.

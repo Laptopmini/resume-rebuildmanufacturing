@@ -7,13 +7,6 @@ export const SUBHEAD_PARTNER = "Your Partner For Cross-Platform Frontend Enginee
 export const SUBHEAD_BODY =
   "Lead Frontend Engineer with over 10 years of experience designing and scaling web and mobile applications for global platforms like Samsung SmartThings. Expert in React, Next.js, and modern JavaScript ecosystems, with a proven track record of overhauling developer consoles and building robust internal component libraries.";
 
-export const STATS = [
-  { value: 10, suffix: "+", label: "YEARS BUILDING UI" },
-  { value: 5, suffix: "", label: "PRODUCTION PLATFORMS" },
-  { value: 1, suffix: "M+", label: "DEVICES SHIPPED" },
-  { value: 4, suffix: "", label: "PATENTED PRODUCTS" },
-] as const;
-
 export const EYEBROW_EXPERIENCE = "FEATURED ROLES";
 export const EYEBROW_SKILLS = "TOP SKILLS";
 export const EYEBROW_EDU = "EDUCATION & CERTIFICATIONS";
@@ -84,37 +77,6 @@ export const EXPERIENCES = [
   },
 ] as const;
 
-export const SKILLS = [
-  {
-    category: "Frontend & Web",
-    items: ["JavaScript", "TypeScript", "React", "Next.js", "HTML/CSS"],
-  },
-  {
-    category: "AI & Machine Learning",
-    items: [
-      "Applied Prompt Engineering",
-      "LLM Integration (Claude, Gemini, Copilot)",
-      "Computer Vision (OpenCV, Tesseract)",
-    ],
-  },
-  {
-    category: "Infrastructure & DevOps",
-    items: [
-      "Docker",
-      "Kubernetes",
-      "Terraform",
-      "GitHub Actions",
-      "Jenkins",
-      "Spinnaker",
-      "JFrog Artifactory (NPM)",
-    ],
-  },
-  {
-    category: "Backend & Mobile",
-    items: ["Python", "Swift", "PostgreSQL", "REST API Design", "iOS/Android Development"],
-  },
-] as const;
-
 export const EDUCATION = [
   {
     title: "B.A. Computer Science",
@@ -139,14 +101,40 @@ export const CONTACT = {
   github: "https://github.com/Laptopmini",
 } as const;
 
-export const AI_FOOTER_EYEBROW = "TELL US HOW THIS WAS BUILT";
-export const AI_FOOTER_HEADLINE = "HOW THIS SITE WAS BUILT";
+export const WORDMARK_TEXT = "PVMINI";
+
+export const AI_FOOTER_EYEBROW = "AI-DEVELOPED RESUME";
+export const AI_FOOTER_HEADLINE = "Built with AI";
 export const AI_FOOTER_BODY =
-  "This site was generated end-to-end by ralph-node, an autonomous Node.js implementation of the Ralph loop. A blueprint architect agent decomposed the prompt into parallelizable tickets; a backpressure agent generated unit and end-to-end tests from each ticket; a junior implementer agent wrote code until the tests passed; every level ships behind a human PR review.";
+  "This resume was built with AI-assisted development using a deterministic bash loop (The Ralph Loop).";
 export const AI_FOOTER_WORKFLOW =
-  "The site was built in four ralph-node phases: a blueprint architect defined the structure and content requirements, a backpressure test generation phase produced unit and integration tests, a junior implementer wrote the code until tests passed, and human PR-gated promotion moved the codebase between each level.";
-export const AI_FOOTER_REPO_LABEL = "VIEW ON GITHUB";
+  "Each section, component, and deployment artifact was generated through a deterministic bash loop with zero human intervention on the codebase.";
+export const AI_FOOTER_REPO_LABEL = "RESUME REPO";
 export const AI_FOOTER_REPO_URL = "https://github.com/Laptopmini/resume-rebuildmanufacturing";
 export const AI_FOOTER_RALPH_URL = "https://github.com/Laptopmini/ralph-node";
 
-export const WORDMARK_TEXT = "PVMINI";
+export const SKILLS = [
+  {
+    category: "Frontend",
+    items: ["React", "TypeScript", "Next.js", "JavaScript", "CSS", "HTML"],
+  },
+  {
+    category: "Backend & DevOps",
+    items: ["Node.js", "Python", "Docker", "Kubernetes", "Terraform", "Jenkins"],
+  },
+  {
+    category: "Mobile & Frameworks",
+    items: ["iOS", "Swift", "Android", "React Native", "Expo"],
+  },
+  {
+    category: "AI & Tools",
+    items: ["OpenAI", "Claude", "Gemini", "GitHub Copilot", "CI/CD"],
+  },
+] as const;
+
+export const STATS = [
+  { label: "Years Experience", value: "10", suffix: "+" },
+  { label: "Production Apps", value: "8", suffix: "+" },
+  { label: "NPM Releases", value: "50", suffix: "+" },
+  { label: "Global Teams", value: "4", suffix: "" },
+] as const;

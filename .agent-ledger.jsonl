@@ -33,3 +33,4 @@
 {"task": "Create index.html", "files_mutated": ["index.html"], "summary": "Created index.html with full HTML structure, meta tags, title, and Vite entry point."}
 {"task": "Fix base path in vite.config.ts", "files_mutated": ["vite.config.ts"], "summary": "Set base to \"/resume-rebuildmanufacturing/\" to fix GitHub Pages 404."}
 {"task": "Define BASE_PATH constant", "files_mutated": ["src/lib/basePath.ts"], "summary": "Changed BASE_PATH from /rebuildmanufacturing to /resume-rebuildmanufacturing."}
+{"task": "Rewrite src/lib/content.ts with missing exports", "files_mutated": ["src/lib/content.ts"], "summary": "Added AI_FOOTER_*, SKILLS, and STATS exports to fix TS2305 errors."}
