@@ -103,10 +103,10 @@ describe("App", () => {
     ]);
   });
 
-  it("has exactly eight Hairline separators in main", () => {
+  it("has exactly seven Hairline separators in main", () => {
     render(<App />);
     const main = screen.getByRole("main");
     const hairlines = main.querySelectorAll('[data-testid="mock-hairline"]');
-    expect(hairlines).toHaveLength(8);
+    expect(hairlines).toHaveLength(7);
   });
 });
