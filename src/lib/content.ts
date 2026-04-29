@@ -142,7 +142,7 @@ export const CONTACT = {
 export const AI_FOOTER_EYEBROW = "TELL US HOW THIS WAS BUILT";
 export const AI_FOOTER_HEADLINE = "HOW THIS SITE WAS BUILT";
 export const AI_FOOTER_BODY =
-  "This site was built using applied AI, modern tooling, and a rigorous test-driven workflow. Every section is rendered from structured content and styled with CSS custom properties, ensuring maintainability and consistency across the entire platform.";
+  "This site was generated end-to-end by ralph-node, an autonomous Node.js implementation of the Ralph loop. A blueprint architect agent decomposed the prompt into parallelizable tickets; a backpressure agent generated unit and end-to-end tests from each ticket; a junior implementer agent wrote code until the tests passed; every level ships behind a human PR review.";
 export const AI_FOOTER_WORKFLOW =
   "The site was built in four ralph-node phases: a blueprint architect defined the structure and content requirements, a backpressure test generation phase produced unit and integration tests, a junior implementer wrote the code until tests passed, and human PR-gated promotion moved the codebase between each level.";
 export const AI_FOOTER_REPO_LABEL = "VIEW ON GITHUB";

@@ -9,7 +9,7 @@ export default function Education() {
       data-in-view="true"
       style={
         {
-          "--entrance-duration": sectionEntrance.duration + "ms",
+          "--entrance-duration": `${sectionEntrance.duration}ms`,
           "--entrance-easing": sectionEntrance.easing,
         } as React.CSSProperties
       }
@@ -19,7 +19,7 @@ export default function Education() {
         <Eyebrow text={EYEBROW_EDU} testId="education-eyebrow" />
         <ul className="space-y-6">
           {EDUCATION.map((edu, index) => (
-            <li data-testid={"edu-" + index} key={edu.title} className="flex flex-col gap-1">
+            <li data-testid={`edu-${index}`} key={edu.title} className="flex flex-col gap-1">
               <span className="text-md font-bold text-ink">{edu.title}</span>
               <span className="text-sm text-inkMuted">{edu.detail}</span>
             </li>

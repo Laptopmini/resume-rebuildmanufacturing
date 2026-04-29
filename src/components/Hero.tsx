@@ -10,7 +10,7 @@ export default function Hero() {
       data-in-view="true"
       style={
         {
-          "--entrance-duration": sectionEntrance.duration + "ms",
+          "--entrance-duration": `${sectionEntrance.duration}ms`,
           "--entrance-easing": sectionEntrance.easing,
         } as React.CSSProperties
       }

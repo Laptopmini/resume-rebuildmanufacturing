@@ -60,7 +60,7 @@ export default function AIDisclosure() {
               </a>
               <a
                 data-testid="contact-email"
-                href={"mailto:" + CONTACT.email}
+                href={`mailto:${CONTACT.email}`}
                 className="text-xs uppercase tracking-[0.2em] text-inkMuted hover:text-accent underline"
               >
                 {CONTACT.email}
