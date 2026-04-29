@@ -28,3 +28,6 @@
 {"task": "Create .github/workflows/deploy.yml", "files_mutated": [".github/workflows/deploy.yml"], "summary": "Created GitHub Actions workflow for Deploy to GitHub Pages with build-and-deploy job."}
 {"task": "Create src/components/Header.tsx", "files_mutated": ["src/components/Header.tsx"], "summary": "Created Header component with fixed positioning, logo span, and three nav links."}
 {"task": "Create src/components/Hero.tsx", "files_mutated": ["src/components/Hero.tsx"], "summary": "Created Hero component with sectionEntrance CSS props, 12-col grid, headline, lead text, and portrait image."}
+{"task": "Create src/App.tsx", "files_mutated": ["src/App.tsx"], "summary": "Created App component with all imports and JSX structure per PRD spec."}
+{"task": "Create src/main.tsx", "files_mutated": ["src/main.tsx"], "summary": "Created main.tsx with ReactDOM.createRoot mount, global CSS, and five IBM Plex Sans weight imports."}
+{"task": "Create index.html", "files_mutated": ["index.html"], "summary": "Created index.html with full HTML structure, meta tags, title, and Vite entry point."}
