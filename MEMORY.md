@@ -1,1 +1,0 @@
-Fixed two lint errors in Experience.tsx: (1) Changed `key={index}` to `key={exp.company + exp.role}` to avoid noArrayIndexKey warning, (2) Changed `exp.bullets.map((b, i) => (` to `exp.bullets.map((b) => (` to fix noUnusedFunctionParameters warning.
