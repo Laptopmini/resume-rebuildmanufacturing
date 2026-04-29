@@ -1,1 +1,0 @@
-Created .github/workflows/deploy.yml with full GitHub Pages deploy workflow. All specs followed exactly - triggers, permissions, concurrency, job steps, environment URL binding, and deployment id tag. No issues encountered.
