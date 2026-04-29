@@ -1,1 +1,0 @@
-Rewrote src/styles/globals.css per PRD task: added --hero-overlay to :root, replaced .accent-highlight rules with marker-highlight implementation, added .hero-video-frame and .hero-overlay rules after .accent-highlight:hover, and removed .accent-highlight from prefers-reduced-motion selector list.
