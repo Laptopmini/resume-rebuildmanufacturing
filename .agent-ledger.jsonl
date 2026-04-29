@@ -20,3 +20,4 @@
 {"task": "Delete placeholder source and tests", "files_mutated": [], "summary": "Removed src/index.ts, tests/unit/setup.test.ts, tests/e2e/setup.spec.ts with single rm -f command."}
 {"task": "Create src/components/About.tsx", "files_mutated": ["src/components/About.tsx"], "summary": "Exported About component with sectionEntrance duration/easing as CSS custom props."}
 {"task": "Create Stats.tsx component", "files_mutated": ["src/components/About.tsx", "src/components/Stats.tsx"], "summary": "Fixed lint errors: replaced + \"ms\" concatenations with template literals, changed index key to stat.label."}
+{"task": "Create Experience.tsx component", "files_mutated": ["src/components/Experience.tsx"], "summary": "Fixed lint errors: replaced array index key with composite key exp.company+exp.role, removed unused arrow function parameter i."}

@@ -1,5 +1,1 @@
-Fixed lint errors in both About.tsx and Stats.tsx by:
-- Replacing string concatenation with template literals for duration values
-- Changing array index key to stat.label in Stats.tsx
-
-All four template literal errors and the noArrayIndexKey error should now be resolved.
+Fixed two lint errors in Experience.tsx: (1) Changed `key={index}` to `key={exp.company + exp.role}` to avoid noArrayIndexKey warning, (2) Changed `exp.bullets.map((b, i) => (` to `exp.bullets.map((b) => (` to fix noUnusedFunctionParameters warning.
