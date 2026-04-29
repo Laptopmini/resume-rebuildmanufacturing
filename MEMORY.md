@@ -1,1 +1,1 @@
-Disabled biome linter rules `noUnknownAtRules` and `noImportantStyles` in the CSS override section of biome.json. The @tailwind directives require `tailwindDirectives: true` parser setting and the rule to be disabled. The `!important` in reduce-motion media query is a legitimate accessibility use case.
+Created src/lib/basePath.ts exporting BASE_PATH constant and withBasePath helper function. The helper handles both absolute paths (starting with "/") and relative paths by prepending "/" before concatenation.
