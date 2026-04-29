@@ -1,1 +1,1 @@
-jest.config.mjs already contains all required changes from previous PRD cycles. No edits needed this cycle.
+Updated playwright.config.ts baseURL from localhost:3000 to localhost:5173 to match Vite's default port.
