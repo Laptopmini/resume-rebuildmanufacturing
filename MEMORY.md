@@ -1,1 +1,1 @@
-Created postcss.config.cjs with module.exports = { plugins: { tailwindcss: {}, autoprefixer: {} } }. No existing file found, so this is a net-new creation.
+Created tailwind.config.js with theme.extend colors mapping to CSS variables, fontFamily.sans with IBM Plex Sans, maxWidth keys, full fontSize scale from CSS variables, and all borderRadius keys set to "0" for v3 compatibility.
