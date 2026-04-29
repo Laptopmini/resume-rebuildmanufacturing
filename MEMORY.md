@@ -1,1 +1,1 @@
-Created src/App.tsx with all required component imports and JSX structure matching the spec exactly.
+Created src/main.tsx with React, ReactDOM imports, App mount, global CSS import, and all five IBM Plex Sans weight CSS imports (300, 400, 500, 600, 700).
