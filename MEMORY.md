@@ -1,1 +1,1 @@
-Created Education.tsx matching task spec exactly. Used `edu.title` as key for list items, rendered `section` with correct data attributes and CSS variables, Eyebrow with EYEBROW_EDU, and mapped EDUCATION to ul>li structure.
+Created AIDisclosure.tsx matching task spec exactly. Imported all required content constants (AI_FOOTER_* and CONTACT), sectionEntrance from motion, and default Eyebrow. Used template literal for entrance duration like Skills.tsx. Headline uses AI_FOOTER_HEADLINE constant directly as specified.

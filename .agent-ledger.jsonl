@@ -20,3 +20,4 @@
 {"task": "Delete placeholder source and tests", "files_mutated": [], "summary": "Removed src/index.ts, tests/unit/setup.test.ts, tests/e2e/setup.spec.ts with single rm -f command."}
 {"task": "Create Skills component", "files_mutated": ["src/components/Skills.tsx"], "summary": "Fixed template literal for duration and replaced index key with skill.category."}
 {"task": "Create Education component", "files_mutated": ["src/components/Education.tsx"], "summary": "Created Education.tsx with section, Eyebrow, and mapped EDUCATION list."}
+{"task": "Create AIDisclosure component", "files_mutated": ["src/components/AIDisclosure.tsx"], "summary": "Created AIDisclosure.tsx with AI_FOOTER_* content imports, section with grid layout, and contact links."}
