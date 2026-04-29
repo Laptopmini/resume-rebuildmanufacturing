@@ -1,1 +1,1 @@
-Created src/lib/motion.ts exporting four motion presets as const objects: sectionEntrance, cardHover, wordmarkBreathe, and statCountUp. Each has exact duration and easing values as specified.
+Created src/lib/content.ts exporting all named consts per the task spec. Used resume.md for EXPERIENCES, SKILLS, EDUCATION data. CONTACT values match resume.md header. AI_FOOTER strings are descriptive paragraphs as specified since Design Intent text wasn't provided verbatim.
