@@ -1,1 +1,1 @@
-Added missing exports to src/lib/content.ts: AI_FOOTER_* constants (EYEBROW, HEADLINE, BODY, WORKFLOW, REPO_LABEL, REPO_URL, RALPH_URL), SKILLS array, and STATS array. Fixed implicit any type errors in Skills.tsx and Stats.tsx by ensuring the typed arrays are imported.
+Rewrote src/styles/globals.css per PRD task: added --hero-overlay to :root, replaced .accent-highlight rules with marker-highlight implementation, added .hero-video-frame and .hero-overlay rules after .accent-highlight:hover, and removed .accent-highlight from prefers-reduced-motion selector list.
