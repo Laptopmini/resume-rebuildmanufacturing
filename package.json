@@ -4,6 +4,9 @@
   "description": "A custom implementation of the Ralph Loop for Node.js - a test-gated, autonomous AI development cycle that turns PRDs into working code.",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5173",
     "test": "npm run test:unit && npm run test:e2e",
     "test:unit": "jest",
     "test:e2e": "playwright test",
@@ -34,14 +37,26 @@
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^14.6.1",
     "@types/jest": "^30.0.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.5.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^30.3.0",
     "jest-environment-jsdom": "^30.3.0",
+    "postcss": "^8.5.12",
+    "tailwindcss": "^3.4.19",
     "ts-node": "^10.9.2",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.2",
+    "vite": "^5.4.21"
   },
   "engines": {
     "node": ">=24.14.1",
     "npm": ">=11.11.0"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-sans": "^5.2.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }

@@ -1,0 +1,1 @@
+Installed React 18, react-dom 18, and @fontsource/ibm-plex-sans as runtime deps. For dev deps, vite@5 needed @vitejs/plugin-react@4 (not v6) due to peer conflict. Added dev, build, preview scripts to package.json. Existing maestro, backpressure, ralph, lint, check-types scripts untouched.
