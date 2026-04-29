@@ -1,1 +1,0 @@
-Created Wordmark.tsx per spec. Imported WORDMARK_TEXT from lib/content and wordmarkBreathe from lib/motion. Animation string built from wordmarkBreathe.duration and easing. Exported default component with correct className and data-testid.
