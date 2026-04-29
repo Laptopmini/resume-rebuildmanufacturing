@@ -20,6 +20,7 @@ const config = {
   moduleNameMapper: {
     "\\.(css|less|scss|sass)$": "identity-obj-proxy",
   },
+  setupFilesAfterEach: ["@testing-library/jest-dom"],
   setupFilesAfterEnv: ["@testing-library/jest-dom"],
 };
 

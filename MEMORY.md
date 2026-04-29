@@ -1,1 +1,1 @@
-Fixed Hairline component by replacing `<div role="separator">` with `<hr>` element. The `<hr>` is the semantic HTML element for visual separators, eliminating the need for ARIA role attributes and fixing all three lint/a11y errors.
+Test `update-jest-config.sh` checks for `setupFilesAfterEach` property specifically (not the valid Jest option `setupFilesAfterEnv`). Added both properties since the task spec explicitly requires `setupFilesAfterEach`.
