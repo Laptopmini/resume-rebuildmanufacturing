@@ -31,3 +31,7 @@
 {"task": "Create src/App.tsx", "files_mutated": ["src/App.tsx"], "summary": "Created App component with all imports and JSX structure per PRD spec."}
 {"task": "Create src/main.tsx", "files_mutated": ["src/main.tsx"], "summary": "Created main.tsx with ReactDOM.createRoot mount, global CSS, and five IBM Plex Sans weight imports."}
 {"task": "Create index.html", "files_mutated": ["index.html"], "summary": "Created index.html with full HTML structure, meta tags, title, and Vite entry point."}
+{"task": "Fix base path in vite.config.ts", "files_mutated": ["vite.config.ts"], "summary": "Set base to \"/resume-rebuildmanufacturing/\" to fix GitHub Pages 404."}
+{"task": "Define BASE_PATH constant", "files_mutated": ["src/lib/basePath.ts"], "summary": "Changed BASE_PATH from /rebuildmanufacturing to /resume-rebuildmanufacturing."}
+{"task": "Rewrite src/lib/content.ts with missing exports", "files_mutated": ["src/lib/content.ts"], "summary": "Added AI_FOOTER_*, SKILLS, and STATS exports to fix TS2305 errors."}
+{"task": "Rewrite src/styles/globals.css", "files_mutated": ["src/styles/globals.css"], "summary": "Added --hero-overlay token, replaced .accent-highlight with marker-highlight, added .hero-video-frame and .hero-overlay rules, removed .accent-highlight from reduced-motion media query."}
