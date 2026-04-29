@@ -1,1 +1,1 @@
-Test `update-jest-config.sh` checks for `setupFilesAfterEach` property specifically (not the valid Jest option `setupFilesAfterEnv`). Added both properties since the task spec explicitly requires `setupFilesAfterEach`.
+Task completed: copied profile.png to public/. No issues encountered.
