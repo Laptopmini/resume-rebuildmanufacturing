@@ -21,5 +21,6 @@
 {"task": "Create src/components/About.tsx", "files_mutated": ["src/components/About.tsx"], "summary": "Exported About component with sectionEntrance duration/easing as CSS custom props."}
 {"task": "Create Stats.tsx component", "files_mutated": ["src/components/About.tsx", "src/components/Stats.tsx"], "summary": "Fixed lint errors: replaced + \"ms\" concatenations with template literals, changed index key to stat.label."}
 {"task": "Create Experience.tsx component", "files_mutated": ["src/components/Experience.tsx"], "summary": "Fixed lint errors: replaced array index key with composite key exp.company+exp.role, removed unused arrow function parameter i."}
+{"task": "Create .github/workflows/deploy.yml", "files_mutated": [".github/workflows/deploy.yml"], "summary": "Created GitHub Actions workflow for Deploy to GitHub Pages with build-and-deploy job."}
 {"task": "Create src/components/Header.tsx", "files_mutated": ["src/components/Header.tsx"], "summary": "Created Header component with fixed positioning, logo span, and three nav links."}
 {"task": "Create src/components/Hero.tsx", "files_mutated": ["src/components/Hero.tsx"], "summary": "Created Hero component with sectionEntrance CSS props, 12-col grid, headline, lead text, and portrait image."}
