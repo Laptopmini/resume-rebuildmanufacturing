@@ -22,3 +22,5 @@
 {"task": "Create Education component", "files_mutated": ["src/components/Education.tsx"], "summary": "Created Education.tsx with section, Eyebrow, and mapped EDUCATION list."}
 {"task": "Create AIDisclosure component", "files_mutated": ["src/components/AIDisclosure.tsx"], "summary": "Created AIDisclosure.tsx with AI_FOOTER_* content imports, section with grid layout, and contact links."}
 {"task": "Create Wordmark component", "files_mutated": ["src/components/Wordmark.tsx"], "summary": "Created Wordmark.tsx with wordmarkBreathe animation and WORDMARK_TEXT content."}
+{"task": "Create src/components/Header.tsx", "files_mutated": ["src/components/Header.tsx"], "summary": "Created Header component with fixed positioning, logo span, and three nav links."}
+{"task": "Create src/components/Hero.tsx", "files_mutated": ["src/components/Hero.tsx"], "summary": "Created Hero component with sectionEntrance CSS props, 12-col grid, headline, lead text, and portrait image."}
