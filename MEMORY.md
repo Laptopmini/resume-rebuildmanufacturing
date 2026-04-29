@@ -1,1 +1,1 @@
-Created src/main.tsx with React, ReactDOM imports, App mount, global CSS import, and all five IBM Plex Sans weight CSS imports (300, 400, 500, 600, 700).
+Created index.html at repo root with exact content from task spec. HTML5 doctype, viewport meta, title and meta description tags, root div, and script tag pointing to /src/main.tsx for Vite injection.
