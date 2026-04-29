@@ -1,1 +1,0 @@
-Created src/components/Hero.tsx per spec. Imports from ../lib/content, ../lib/basePath, ../lib/motion. Uses sectionEntrance.duration and sectionEntrance.easing via CSS custom properties. Left col md:col-span-7 for headline and lead, right col md:col-span-5 for portrait img. No props needed.
