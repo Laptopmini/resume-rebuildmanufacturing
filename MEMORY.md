@@ -1,0 +1,1 @@
+Fixed two lint issues in src/components/Skills.tsx: (1) changed string concat to template literal for duration, (2) replaced array index key with skill.category. The lint/suspicious/noArrayIndexKey requires using a stable key - skill.category is unique and appropriate here.
