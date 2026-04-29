@@ -5,7 +5,7 @@ export default defineConfig({
   testMatch: "**/*.{spec,test}.ts",
   timeout: 10000,
   use: {
-    baseURL: "http://localhost:3000",
+    baseURL: "http://localhost:5173",
     headless: true,
   },
   projects: [

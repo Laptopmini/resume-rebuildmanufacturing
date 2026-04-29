@@ -2,3 +2,32 @@
 {"task": "Configure Jest", "files_mutated": ["jest.config.js", "tests/unit/setup.test.ts", "package.json"], "summary": "Created jest.config.js with @swc/jest transform scoped to tests/unit/**/*.test.ts. Added test:unit script to package.json. Created passing sanity test at tests/unit/setup.test.ts."}
 {"task": "Configure Playwright", "files_mutated": ["playwright.config.ts", "tests/e2e/setup.spec.ts", "package.json"], "summary": "Created playwright.config.ts with headless Chromium, baseURL http://localhost:3000, testDir ./tests/e2e. Created sanity test at tests/e2e/setup.spec.ts navigating to about:blank and asserting empty title. Added test:e2e script and updated test script to run test:unit && test:e2e sequentially."}
 {"task": "Wire up a root test script", "files_mutated": [], "summary": "No changes required. The package.json 'test' script was already set to 'npm run test:unit && npm run test:e2e' from the previous Playwright configuration cycle."}
+{"task": "Install runtime and dev dependencies, add vite scripts", "files_mutated": ["package.json"], "summary": "Installed react@18, react-dom@18, @fontsource/ibm-plex-sans and dev deps including vite@5 with @vitejs/plugin-react@4, tailwindcss@3, testing libraries. Added dev, build, preview scripts."}
+{"task": "Update tsconfig.json", "files_mutated": ["tsconfig.json"], "summary": "Set module to ESNext, moduleResolution to Bundler, added jsx/lib/allowSyntheticDefaultImports/noEmit, removed outDir/rootDir, updated include/exclude."}
+{"task": "Update jest.config.mjs", "files_mutated": [], "summary": "No changes needed — already satisfies requirements."}
+{"task": "Update playwright.config.ts baseURL to 5173", "files_mutated": ["playwright.config.ts"], "summary": "Changed baseURL from http://localhost:3000 to http://localhost:5173."}
+{"task": "Create vite.config.ts", "files_mutated": ["vite.config.ts"], "summary": "Created vite.config.ts with defineConfig, react plugin, base path, and dist outDir."}
+{"task": "Create postcss.config.cjs", "files_mutated": ["postcss.config.cjs"], "summary": "Created postcss.config.cjs exporting plugins object with tailwindcss and autoprefixer."}
+{"task": "Create tailwind.config.js", "files_mutated": ["tailwind.config.js"], "summary": "Created CommonJS config with CSS variable tokens, IBM Plex Sans font, and zero borderRadius."}
+{"task": "Create CSS ambient types declaration", "files_mutated": ["src/types/css.d.ts"], "summary": "Declared module \"*.css\" for TypeScript CSS import support."}
+{"task": "Create src/styles/globals.css", "files_mutated": ["biome.json"], "summary": "Added CSS-specific linter overrides to biome.json to allow @tailwind directives and !important in reduce-motion query."}
+{"task": "Create src/lib/basePath.ts", "files_mutated": ["src/lib/basePath.ts"], "summary": "Exported BASE_PATH and withBasePath helper that concatenates paths correctly."}
+{"task": "Create src/lib/motion.ts", "files_mutated": ["src/lib/motion.ts"], "summary": "Exported four named const motion presets."}
+{"task": "Create src/lib/content.ts", "files_mutated": ["src/lib/content.ts"], "summary": "Exported HERO_*, SUBHEAD_*, STATS, EYEBROW_*, EXPERIENCES, SKILLS, EDUCATION, CONTACT, AI_FOOTER_*, WORDMARK_TEXT named consts."}
+{"task": "Create Hairline.tsx component", "files_mutated": ["src/components/Hairline.tsx"], "summary": "Replaced div with hr element to fix a11y lint errors."}
+{"task": "Update jest.config.mjs", "files_mutated": ["jest.config.mjs"], "summary": "Added setupFilesAfterEach alongside existing setupFilesAfterEnv."}
+{"task": "Copy profile.png to public/", "files_mutated": ["public/profile.png"], "summary": "Created public/ dir and copied profile.png into it."}
+{"task": "Delete placeholder source and tests", "files_mutated": [], "summary": "Removed src/index.ts, tests/unit/setup.test.ts, tests/e2e/setup.spec.ts with single rm -f command."}
+{"task": "Create src/components/About.tsx", "files_mutated": ["src/components/About.tsx"], "summary": "Exported About component with sectionEntrance duration/easing as CSS custom props."}
+{"task": "Create Stats.tsx component", "files_mutated": ["src/components/About.tsx", "src/components/Stats.tsx"], "summary": "Fixed lint errors: replaced + \"ms\" concatenations with template literals, changed index key to stat.label."}
+{"task": "Create Experience.tsx component", "files_mutated": ["src/components/Experience.tsx"], "summary": "Fixed lint errors: replaced array index key with composite key exp.company+exp.role, removed unused arrow function parameter i."}
+{"task": "Create Skills component", "files_mutated": ["src/components/Skills.tsx"], "summary": "Fixed template literal for duration and replaced index key with skill.category."}
+{"task": "Create Education component", "files_mutated": ["src/components/Education.tsx"], "summary": "Created Education.tsx with section, Eyebrow, and mapped EDUCATION list."}
+{"task": "Create AIDisclosure component", "files_mutated": ["src/components/AIDisclosure.tsx"], "summary": "Created AIDisclosure.tsx with AI_FOOTER_* content imports, section with grid layout, and contact links."}
+{"task": "Create Wordmark component", "files_mutated": ["src/components/Wordmark.tsx"], "summary": "Created Wordmark.tsx with wordmarkBreathe animation and WORDMARK_TEXT content."}
+{"task": "Create .github/workflows/deploy.yml", "files_mutated": [".github/workflows/deploy.yml"], "summary": "Created GitHub Actions workflow for Deploy to GitHub Pages with build-and-deploy job."}
+{"task": "Create src/components/Header.tsx", "files_mutated": ["src/components/Header.tsx"], "summary": "Created Header component with fixed positioning, logo span, and three nav links."}
+{"task": "Create src/components/Hero.tsx", "files_mutated": ["src/components/Hero.tsx"], "summary": "Created Hero component with sectionEntrance CSS props, 12-col grid, headline, lead text, and portrait image."}
+{"task": "Create src/App.tsx", "files_mutated": ["src/App.tsx"], "summary": "Created App component with all imports and JSX structure per PRD spec."}
+{"task": "Create src/main.tsx", "files_mutated": ["src/main.tsx"], "summary": "Created main.tsx with ReactDOM.createRoot mount, global CSS, and five IBM Plex Sans weight imports."}
+{"task": "Create index.html", "files_mutated": ["index.html"], "summary": "Created index.html with full HTML structure, meta tags, title, and Vite entry point."}
