@@ -9,3 +9,4 @@
 {"task": "Create vite.config.ts", "files_mutated": ["vite.config.ts"], "summary": "Created vite.config.ts with defineConfig, react plugin, base path, and dist outDir."}
 {"task": "Create postcss.config.cjs", "files_mutated": ["postcss.config.cjs"], "summary": "Created postcss.config.cjs exporting plugins object with tailwindcss and autoprefixer."}
 {"task": "Create tailwind.config.js", "files_mutated": ["tailwind.config.js"], "summary": "Created CommonJS config with CSS variable tokens, IBM Plex Sans font, and zero borderRadius."}
+{"task": "Create CSS ambient types declaration", "files_mutated": ["src/types/css.d.ts"], "summary": "Declared module \"*.css\" for TypeScript CSS import support."}
