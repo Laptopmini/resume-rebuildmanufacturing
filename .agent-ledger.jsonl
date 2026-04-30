@@ -35,3 +35,4 @@
 {"task": "Define BASE_PATH constant", "files_mutated": ["src/lib/basePath.ts"], "summary": "Changed BASE_PATH from /rebuildmanufacturing to /resume-rebuildmanufacturing."}
 {"task": "Rewrite src/lib/content.ts with missing exports", "files_mutated": ["src/lib/content.ts"], "summary": "Added AI_FOOTER_*, SKILLS, and STATS exports to fix TS2305 errors."}
 {"task": "Rewrite src/styles/globals.css", "files_mutated": ["src/styles/globals.css"], "summary": "Added --hero-overlay token, replaced .accent-highlight with marker-highlight, added .hero-video-frame and .hero-overlay rules, removed .accent-highlight from reduced-motion media query."}
+{"task": "Rewrite src/components/Hero.tsx", "files_mutated": ["src/components/Hero.tsx"], "summary": "Rewrote Hero.tsx with video iframe, overlay, and foreground content wrapper; removed portrait and withBasePath."}
