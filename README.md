@@ -2,6 +2,7 @@
 
 A fork of [ralph-node](https://github.com/Laptopmini/ralph-node) that was prompted to build a website based on my resume using Re:Build Manufacturing's styling, hosted on GitHub Pages.
 
+### [View the website](https://laptopmini.github.io/resume-rebuildmanufacturing/)
 
 ### [Learn more about the orchestration of this project](https://github.com/Laptopmini/ralph-node#readme)
 
