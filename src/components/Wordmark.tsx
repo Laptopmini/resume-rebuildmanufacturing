@@ -15,9 +15,17 @@ export default function Wordmark() {
           " infinite",
       }}
     >
-      <span className="block text-wordmark font-bold uppercase tracking-[-0.04em] leading-[0.85] text-ink whitespace-nowrap text-center select-none">
-        {WORDMARK_TEXT}
-      </span>
+      <div className="flex justify-between items-center w-full leading-[0.85] select-none px-0">
+        {WORDMARK_TEXT.split("").map((char, index) => (
+          <span
+            key={char}
+            data-testid={`wordmark-char-${index}`}
+            className="font-bold uppercase text-wordmark text-ink"
+          >
+            {char}
+          </span>
+        ))}
+      </div>
     </div>
   );
 }
