@@ -7,16 +7,8 @@ export const SUBHEAD_PARTNER = "Your Partner For Cross-Platform Frontend Enginee
 export const SUBHEAD_BODY =
   "Lead Frontend Engineer with over 10 years of experience designing and scaling web and mobile applications for global platforms like Samsung SmartThings. Expert in React, Next.js, and modern JavaScript ecosystems, with a proven track record of overhauling developer consoles and building robust internal component libraries.";
 
-export const STATS = [
-  { value: 10, suffix: "+", label: "YEARS BUILDING UI" },
-  { value: 5, suffix: "", label: "PRODUCTION PLATFORMS" },
-  { value: 1, suffix: "M+", label: "DEVICES SHIPPED" },
-  { value: 4, suffix: "", label: "PATENTED PRODUCTS" },
-] as const;
-
-export const EYEBROW_EXPERIENCE = "FEATURED ROLES";
-export const EYEBROW_SKILLS = "TOP SKILLS";
-export const EYEBROW_EDU = "EDUCATION & CERTIFICATIONS";
+export const HERO_VIDEO_URL =
+  "https://player.vimeo.com/video/1168134399?muted=1&autoplay=1&loop=1&background=1&app_id=122963";
 
 export const EXPERIENCES = [
   {
@@ -93,8 +85,11 @@ export const SKILLS = [
     category: "AI & Machine Learning",
     items: [
       "Applied Prompt Engineering",
-      "LLM Integration (Claude, Gemini, Copilot)",
+      "LLM Integration",
       "Computer Vision (OpenCV, Tesseract)",
+      "Test-Driven Development",
+      "Ralph Loop",
+      "Agent Orchestration",
     ],
   },
   {
@@ -114,6 +109,11 @@ export const SKILLS = [
     items: ["Python", "Swift", "PostgreSQL", "REST API Design", "iOS/Android Development"],
   },
 ] as const;
+
+export const EYEBROW_EXPERIENCE = "FEATURED ROLES";
+export const EYEBROW_SKILLS = "TOP SKILLS";
+export const EYEBROW_EDU = "EDUCATION & CERTIFICATIONS";
+export const EYEBROW_CONTACT = "CONTACT";
 
 export const EDUCATION = [
   {
@@ -139,14 +139,24 @@ export const CONTACT = {
   github: "https://github.com/Laptopmini",
 } as const;
 
-export const AI_FOOTER_EYEBROW = "TELL US HOW THIS WAS BUILT";
-export const AI_FOOTER_HEADLINE = "HOW THIS SITE WAS BUILT";
+export const AI_FOOTER_EYEBROW = "BUILT BY RALPH-NODE";
+export const AI_FOOTER_HEADLINE = "AN ORCHESTRATED AI PIPELINE";
 export const AI_FOOTER_BODY =
-  "This site was generated end-to-end by ralph-node, an autonomous Node.js implementation of the Ralph loop. A blueprint architect agent decomposed the prompt into parallelizable tickets; a backpressure agent generated unit and end-to-end tests from each ticket; a junior implementer agent wrote code until the tests passed; every level ships behind a human PR review.";
-export const AI_FOOTER_WORKFLOW =
-  "The site was built in four ralph-node phases: a blueprint architect defined the structure and content requirements, a backpressure test generation phase produced unit and integration tests, a junior implementer wrote the code until tests passed, and human PR-gated promotion moved the codebase between each level.";
-export const AI_FOOTER_REPO_LABEL = "VIEW ON GITHUB";
+  "Ralph-node is an orchestrated, test-gated AI development pipeline for Node.js. A Ralph loop turns a single paragraph into a planned, tested, reviewed, fully working implementation across PR-gated phases. Engineered entirely by me.";
+export const AI_FOOTER_REPO_LABEL = "VIEW THIS REPO";
 export const AI_FOOTER_REPO_URL = "https://github.com/Laptopmini/resume-rebuildmanufacturing";
 export const AI_FOOTER_RALPH_URL = "https://github.com/Laptopmini/ralph-node";
+export const AI_FOOTER_CTA_LABEL = "EXPLORE THE PIPELINE";
 
 export const WORDMARK_TEXT = "PVMINI";
+
+export const STATS: Array<{ value: number; suffix: string; label: string; format?: "comma" }> = [
+  { value: 10, suffix: "+", label: "YEARS BUILDING UI" },
+  { value: EXPERIENCES.length, suffix: "", label: "POSITIONS HELD" },
+  { value: 1474, suffix: "+", label: "GITHUB CONTRIBUTIONS / YEAR", format: "comma" },
+  {
+    value: SKILLS.flatMap((s) => s.items as readonly string[]).length,
+    suffix: "",
+    label: "UNIQUE SKILLS",
+  },
+];

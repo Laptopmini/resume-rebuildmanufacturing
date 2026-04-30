@@ -5,7 +5,6 @@ import {
   AI_FOOTER_RALPH_URL,
   AI_FOOTER_REPO_LABEL,
   AI_FOOTER_REPO_URL,
-  AI_FOOTER_WORKFLOW,
   CONTACT,
 } from "../lib/content";
 import { sectionEntrance } from "../lib/motion";
@@ -39,9 +38,6 @@ export default function AIDisclosure() {
           <div className="md:col-span-7">
             <p data-testid="ai-body" className="text-base text-ink">
               {AI_FOOTER_BODY}
-            </p>
-            <p data-testid="ai-workflow" className="mt-6 text-base text-inkMuted">
-              {AI_FOOTER_WORKFLOW}
             </p>
             <div className="mt-10 flex flex-wrap gap-6">
               <a
