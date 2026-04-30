@@ -3,6 +3,6 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/rebuildmanufacturing/",
+  base: "/resume-rebuildmanufacturing/",
   build: { outDir: "dist" },
 });

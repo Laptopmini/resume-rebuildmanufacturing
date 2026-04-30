@@ -31,3 +31,4 @@
 {"task": "Create src/App.tsx", "files_mutated": ["src/App.tsx"], "summary": "Created App component with all imports and JSX structure per PRD spec."}
 {"task": "Create src/main.tsx", "files_mutated": ["src/main.tsx"], "summary": "Created main.tsx with ReactDOM.createRoot mount, global CSS, and five IBM Plex Sans weight imports."}
 {"task": "Create index.html", "files_mutated": ["index.html"], "summary": "Created index.html with full HTML structure, meta tags, title, and Vite entry point."}
+{"task": "Fix vite.config.ts base path", "files_mutated": ["vite.config.ts"], "summary": "Changed base from /rebuildmanufacturing/ to /resume-rebuildmanufacturing/."}
