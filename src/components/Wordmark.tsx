@@ -1,6 +1,8 @@
 import { WORDMARK_TEXT } from "../lib/content";
 import { wordmarkBreathe } from "../lib/motion";
 
+const CHARS = WORDMARK_TEXT.split("").map((char, i) => ({ char, id: `${char}-${i}` }));
+
 export default function Wordmark() {
   return (
     <div
@@ -15,9 +17,17 @@ export default function Wordmark() {
           " infinite",
       }}
     >
-      <span className="block text-wordmark font-bold uppercase tracking-[-0.04em] leading-[0.85] text-ink whitespace-nowrap text-center select-none">
-        {WORDMARK_TEXT}
-      </span>
+      <div className="flex justify-between items-center w-full leading-[0.85] select-none px-0">
+        {CHARS.map(({ char, id }, index) => (
+          <span
+            key={id}
+            data-testid={`wordmark-char-${index}`}
+            className="font-bold uppercase text-wordmark text-ink"
+          >
+            {char}
+          </span>
+        ))}
+      </div>
     </div>
   );
 }

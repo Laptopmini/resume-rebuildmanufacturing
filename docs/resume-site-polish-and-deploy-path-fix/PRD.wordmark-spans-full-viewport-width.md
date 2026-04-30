@@ -1,0 +1,5 @@
+# PRD: Wordmark Spans Full Viewport Width
+
+## Tasks
+
+- [x] Rewrite `src/components/Wordmark.tsx` so the outer `<div data-testid="wordmark">` keeps its className `"bg-bgSunken overflow-hidden"` and its existing inline `style` driving the `wordmark-breathe` animation from `wordmarkBreathe` (do not alter the animation timing). Replace the single inner `<span>` with `<div className="flex justify-between items-center w-full leading-[0.85] select-none px-0">` containing one child `<span>` per character of `WORDMARK_TEXT.split("")`, each with className `"font-bold uppercase text-wordmark text-ink"` and `data-testid={`wordmark-char-${index}`}` (so the file emits `wordmark-char-0` through `wordmark-char-5` for the string `"PVMINI"`). The flex container's `justify-between` plus the absence of horizontal padding guarantees the first character sits at the left edge of the viewport and the last character sits at the right edge. Do not introduce `tracking-*` classes — letter distribution is handled entirely by flex, not letter-spacing. Keep the `WORDMARK_TEXT` and `wordmarkBreathe` imports. `[test: npx jest tests/unit/distribute-wordmark-letters.test.tsx]`

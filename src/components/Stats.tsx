@@ -28,7 +28,9 @@ export default function Stats() {
             className="flex flex-col items-start"
           >
             <span className="text-2xl font-bold text-accent">
-              {stat.value}
+              {stat.format === "comma"
+                ? new Intl.NumberFormat("en-US").format(stat.value)
+                : String(stat.value)}
               {stat.suffix}
             </span>
             <span className="mt-3 text-xs uppercase tracking-[0.2em] text-inkMuted">
