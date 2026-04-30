@@ -1,1 +1,0 @@
-Added Contact import and component insertion to src/App.tsx. The main element now renders in order: Hero, Hairline, About, Hairline, Stats, Hairline, Experience, Hairline, Skills, Hairline, Education, Hairline, Contact, Hairline, AIDisclosure, Hairline.
