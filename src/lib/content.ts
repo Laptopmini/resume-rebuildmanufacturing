@@ -2,6 +2,8 @@ export const HERO_HEADLINE = "ENGINEERING MODERN INTERFACES";
 export const HERO_LEAD_PREFIX =
   "Paul-Valentin Mini builds frontend platforms from concept to full-rate production through";
 export const HERO_LEAD_HIGHLIGHT = "react architecture, design systems, and applied AI.";
+export const HERO_VIDEO_URL =
+  "https://player.vimeo.com/video/1168134399?muted=1&autoplay=1&loop=1&background=1&app_id=122963";
 
 export const SUBHEAD_PARTNER = "Your Partner For Cross-Platform Frontend Engineering";
 export const SUBHEAD_BODY =
@@ -10,6 +12,7 @@ export const SUBHEAD_BODY =
 export const EYEBROW_EXPERIENCE = "FEATURED ROLES";
 export const EYEBROW_SKILLS = "TOP SKILLS";
 export const EYEBROW_EDU = "EDUCATION & CERTIFICATIONS";
+export const EYEBROW_CONTACT = "CONTACT";
 
 export const EXPERIENCES = [
   {
