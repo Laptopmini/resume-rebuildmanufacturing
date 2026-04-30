@@ -37,3 +37,4 @@
 {"task": "Rewrite src/styles/globals.css per PRD spec", "files_mutated": [], "summary": "File already matched spec; no changes required."}
 {"task": "Create Contact.tsx", "files_mutated": ["src/components/Contact.tsx"], "summary": "Created Contact component exporting default with full section, portrait, contact info, and links."}
 {"task": "Rewrite AIDisclosure.tsx to drop contact links and workflow", "files_mutated": ["src/components/AIDisclosure.tsx"], "summary": "Removed CONTACT and AI_FOOTER_WORKFLOW imports, changed id to ai-disclosure, dropped contact links and workflow paragraph, added AI_FOOTER_CTA_LABEL for ralph link text."}
+{"task": "Edit App.tsx to add Contact component", "files_mutated": ["src/App.tsx"], "summary": "Added Contact import and inserted Contact with Hairline between Education and AIDisclosure."}

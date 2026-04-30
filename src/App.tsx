@@ -1,5 +1,6 @@
 import About from "./components/About";
 import AIDisclosure from "./components/AIDisclosure";
+import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Hairline from "./components/Hairline";
@@ -25,6 +26,8 @@ export default function App() {
         <Skills />
         <Hairline />
         <Education />
+        <Hairline />
+        <Contact />
         <Hairline />
         <AIDisclosure />
         <Hairline />
