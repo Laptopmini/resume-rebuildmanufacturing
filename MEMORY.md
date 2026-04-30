@@ -1,1 +1,1 @@
-Created src/components/Contact.tsx with all required imports (CONTACT, EYEBROW_CONTACT, withBasePath, sectionEntrance, Eyebrow) and component structure matching spec exactly.
+Rewrote AIDisclosure.tsx removing CONTACT import, workflow paragraph, contact links (contact-email, contact-linkedin, contact-github testids), and AI_FOOTER_WORKFLOW. Changed id from "contact" to "ai-disclosure". Added AI_FOOTER_CTA_LABEL import and used it for the ralph-link text. Reordered links so ralph-link comes before repo-link as per spec.
