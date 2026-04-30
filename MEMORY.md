@@ -1,1 +1,1 @@
-Updated BASE_PATH constant from "/rebuildmanufacturing" to "/resume-rebuildmanufacturing" in src/lib/basePath.ts. No trailing slash, matching the task spec exactly.
+Fixed content.ts: removed duplicate STATS declaration at top, added EYEBROW_EXPERIENCE/SKILLS/EDU/CONTACT exports after SKILLS (before EDUCATION), verified HERO_VIDEO_URL and AI_FOOTER constants are correct, removed AI_FOOTER_WORKFLOW import and usage from AIDisclosure.tsx. STATS now only declared once after EXPERIENCES and SKILLS.

@@ -33,3 +33,4 @@
 {"task": "Create index.html", "files_mutated": ["index.html"], "summary": "Created index.html with full HTML structure, meta tags, title, and Vite entry point."}
 {"task": "Fix vite.config.ts base path", "files_mutated": ["vite.config.ts"], "summary": "Changed base from /rebuildmanufacturing/ to /resume-rebuildmanufacturing/."}
 {"task": "Define BASE_PATH constant", "files_mutated": ["src/lib/basePath.ts"], "summary": "Changed BASE_PATH literal to /resume-rebuildmanufacturing."}
+{"task": "Rewrite src/lib/content.ts per PRD spec", "files_mutated": ["src/lib/content.ts", "src/components/AIDisclosure.tsx"], "summary": "Added EYEBROW exports, fixed STATS declaration order, updated AI_FOOTER constants, removed AI_FOOTER_WORKFLOW from AIDisclosure."}
