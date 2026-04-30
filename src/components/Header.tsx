@@ -9,7 +9,7 @@ export default function Header() {
           data-testid="header-mark"
           className="font-sans font-bold tracking-tight text-ink text-md uppercase"
         >
-          PV·MINI
+          PAUL-VALENTIN MINI
         </span>
         <nav>
           <a

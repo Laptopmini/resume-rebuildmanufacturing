@@ -38,7 +38,8 @@ export default function Hero() {
           {HERO_HEADLINE}
         </h1>
         <p data-testid="hero-lead" className="mt-12 text-md text-ink max-w-content">
-          {HERO_LEAD_PREFIX} <span className="accent-highlight">{HERO_LEAD_HIGHLIGHT}</span>
+          {HERO_LEAD_PREFIX} <span className="accent-highlight">{HERO_LEAD_HIGHLIGHT}</span>{" "}
+          Seriously, any UI. Even yours.
         </p>
       </div>
     </section>

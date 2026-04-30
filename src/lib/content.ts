@@ -5,7 +5,7 @@ export const HERO_LEAD_HIGHLIGHT = "react architecture, design systems, and appl
 
 export const SUBHEAD_PARTNER = "Your Partner For Cross-Platform Frontend Engineering";
 export const SUBHEAD_BODY =
-  "Lead Frontend Engineer with over 10 years of experience designing and scaling web and mobile applications for global platforms like Samsung SmartThings. Expert in React, Next.js, and modern JavaScript ecosystems, with a proven track record of overhauling developer consoles and building robust internal component libraries.";
+  "Senior Software Developer with 10+ years of experience building at a global scale. Expert in React, Next.js, and modern JavaScript ecosystems, with a proven track record of overhauling developer consoles and building robust internal component libraries. Today, I dedicate my expertise almost exclusively to Applied AI, Prompt Engineering, and LLM integrations, building tools to accelerate developer workflows and bootstrap product integrations. I have a proven track record of leading complex, cross-functional projects from proof-of-concept to zero-break production releases for enterprise platforms like Samsung SmartThings.";
 
 export const HERO_VIDEO_URL =
   "https://player.vimeo.com/video/1168134399?muted=1&autoplay=1&loop=1&background=1&app_id=122963";
