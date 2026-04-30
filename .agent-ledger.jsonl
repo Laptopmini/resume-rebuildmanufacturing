@@ -36,3 +36,4 @@
 {"task": "Rewrite src/lib/content.ts per PRD spec", "files_mutated": ["src/lib/content.ts", "src/components/AIDisclosure.tsx"], "summary": "Added EYEBROW exports, fixed STATS declaration order, updated AI_FOOTER constants, removed AI_FOOTER_WORKFLOW from AIDisclosure."}
 {"task": "Rewrite src/styles/globals.css per PRD spec", "files_mutated": [], "summary": "File already matched spec; no changes required."}
 {"task": "Style Experience bullet list per PRD", "files_mutated": ["src/components/Experience.tsx"], "summary": "Changed inner bullet ul className to list-disc list-outside pl-5 marker:text-accent."}
+{"task": "Rewrite src/components/Hero.tsx per PRD spec", "files_mutated": ["src/components/Hero.tsx"], "summary": "Replaced hero implementation with iframe background video, overlay div, and foreground content wrapper; removed grid layout and portrait img."}
