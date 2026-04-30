@@ -6,7 +6,8 @@ jest.mock("../../src/lib/content", () => ({
   HERO_LEAD_PREFIX:
     "Paul-Valentin Mini builds frontend platforms from concept to full-rate production through",
   HERO_LEAD_HIGHLIGHT: "react architecture, design systems, and applied AI.",
-  HERO_VIDEO_URL: "https://player.vimeo.com/video/123456789",
+  HERO_VIDEO_URL:
+    "https://player.vimeo.com/video/1168134399?muted=1&autoplay=1&loop=1&background=1&app_id=122963",
 }));
 
 describe("Hero", () => {
@@ -50,7 +51,10 @@ describe("Hero", () => {
     it("renders the Vimeo iframe with the required attributes", () => {
       const iframe = screen.getByTestId("hero-video");
       expect(iframe).toBeInTheDocument();
-      expect(iframe).toHaveAttribute("src", "https://player.vimeo.com/video/123456789");
+      expect(iframe).toHaveAttribute(
+        "src",
+        "https://player.vimeo.com/video/1168134399?muted=1&autoplay=1&loop=1&background=1&app_id=122963",
+      );
       expect(iframe).toHaveAttribute("title", "Background video");
       expect(iframe).toHaveAttribute("aria-hidden", "true");
       expect(iframe).toHaveAttribute("allow", "autoplay; fullscreen");
