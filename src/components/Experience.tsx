@@ -37,7 +37,7 @@ export default function Experience() {
               <span className="text-xs text-inkMuted">
                 {exp.dates} · {exp.location}
               </span>
-              <ul className="mt-3 list-none space-y-2">
+              <ul className="mt-3 list-disc list-outside pl-5 space-y-2 marker:text-accent">
                 {exp.bullets.map((b) => (
                   <li key={b} className="text-sm text-ink">
                     {b}
