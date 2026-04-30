@@ -1,1 +1,0 @@
-Checked current globals.css — `--hero-overlay` already present in :root, `.hero-video-frame` and `.hero-overlay` rules already exist, `.accent-highlight` has correct marker-highlight styling, and `prefers-reduced-motion` already omits `.accent-highlight`. File was already correct per spec. No changes needed.
