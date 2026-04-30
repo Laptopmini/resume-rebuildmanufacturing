@@ -1,1 +1,0 @@
-Rewrote Hero.tsx per PRD. Removed withBasePath import and portrait element. Added HERO_VIDEO_URL and sectionEntrance imports. Used specified className with overflow-hidden and flex items-end. Rendered iframe, overlay div, and foreground wrapper in correct order with data-testids.
