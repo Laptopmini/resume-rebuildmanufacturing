@@ -1,1 +1,1 @@
-Edited vite.config.ts base option from "/rebuildmanufacturing/" to "/resume-rebuildmanufacturing/" to fix GitHub Pages 404 errors.
+Updated BASE_PATH constant from "/rebuildmanufacturing" to "/resume-rebuildmanufacturing" in src/lib/basePath.ts. No trailing slash, matching the task spec exactly.
