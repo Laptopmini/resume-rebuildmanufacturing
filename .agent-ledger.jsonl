@@ -35,6 +35,9 @@
 {"task": "Define BASE_PATH constant", "files_mutated": ["src/lib/basePath.ts"], "summary": "Changed BASE_PATH literal to /resume-rebuildmanufacturing."}
 {"task": "Rewrite src/lib/content.ts per PRD spec", "files_mutated": ["src/lib/content.ts", "src/components/AIDisclosure.tsx"], "summary": "Added EYEBROW exports, fixed STATS declaration order, updated AI_FOOTER constants, removed AI_FOOTER_WORKFLOW from AIDisclosure."}
 {"task": "Rewrite src/styles/globals.css per PRD spec", "files_mutated": [], "summary": "File already matched spec; no changes required."}
+{"task": "Create Contact.tsx", "files_mutated": ["src/components/Contact.tsx"], "summary": "Created Contact component exporting default with full section, portrait, contact info, and links."}
+{"task": "Rewrite AIDisclosure.tsx to drop contact links and workflow", "files_mutated": ["src/components/AIDisclosure.tsx"], "summary": "Removed CONTACT and AI_FOOTER_WORKFLOW imports, changed id to ai-disclosure, dropped contact links and workflow paragraph, added AI_FOOTER_CTA_LABEL for ralph link text."}
+{"task": "Edit App.tsx to add Contact component", "files_mutated": ["src/App.tsx"], "summary": "Added Contact import and inserted Contact with Hairline between Education and AIDisclosure."}
 {"task": "Style Experience bullet list per PRD", "files_mutated": ["src/components/Experience.tsx"], "summary": "Changed inner bullet ul className to list-disc list-outside pl-5 marker:text-accent."}
 {"task": "Rewrite Stats.tsx with comma formatting", "files_mutated": ["src/components/Stats.tsx"], "summary": "Added conditional Intl.NumberFormat for stat values with format === comma."}
 {"task": "Rewrite src/components/Hero.tsx per PRD spec", "files_mutated": ["src/components/Hero.tsx"], "summary": "Replaced hero implementation with iframe background video, overlay div, and foreground content wrapper; removed grid layout and portrait img."}
