@@ -1,11 +1,11 @@
 import {
   AI_FOOTER_BODY,
+  AI_FOOTER_CTA_LABEL,
   AI_FOOTER_EYEBROW,
   AI_FOOTER_HEADLINE,
   AI_FOOTER_RALPH_URL,
   AI_FOOTER_REPO_LABEL,
   AI_FOOTER_REPO_URL,
-  CONTACT,
 } from "../lib/content";
 import { sectionEntrance } from "../lib/motion";
 import Eyebrow from "./Eyebrow";
@@ -13,7 +13,7 @@ import Eyebrow from "./Eyebrow";
 export default function AIDisclosure() {
   return (
     <section
-      id="contact"
+      id="ai-disclosure"
       data-testid="ai-disclosure-section"
       data-in-view="true"
       style={
@@ -41,39 +41,18 @@ export default function AIDisclosure() {
             </p>
             <div className="mt-10 flex flex-wrap gap-6">
               <a
-                data-testid="ai-repo-link"
-                href={AI_FOOTER_REPO_URL}
-                className="text-xs uppercase tracking-[0.2em] text-accent hover:text-accentBright underline"
-              >
-                {AI_FOOTER_REPO_LABEL}
-              </a>
-              <a
                 data-testid="ai-ralph-link"
                 href={AI_FOOTER_RALPH_URL}
                 className="text-xs uppercase tracking-[0.2em] text-accent hover:text-accentBright underline"
               >
-                RALPH-NODE
+                {AI_FOOTER_CTA_LABEL}
               </a>
               <a
-                data-testid="contact-email"
-                href={`mailto:${CONTACT.email}`}
+                data-testid="ai-repo-link"
+                href={AI_FOOTER_REPO_URL}
                 className="text-xs uppercase tracking-[0.2em] text-inkMuted hover:text-accent underline"
               >
-                {CONTACT.email}
-              </a>
-              <a
-                data-testid="contact-linkedin"
-                href={CONTACT.linkedin}
-                className="text-xs uppercase tracking-[0.2em] text-inkMuted hover:text-accent underline"
-              >
-                LINKEDIN
-              </a>
-              <a
-                data-testid="contact-github"
-                href={CONTACT.github}
-                className="text-xs uppercase tracking-[0.2em] text-inkMuted hover:text-accent underline"
-              >
-                GITHUB
+                {AI_FOOTER_REPO_LABEL}
               </a>
             </div>
           </div>
