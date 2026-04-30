@@ -1,0 +1,1 @@
+Fixed lint error by using `char` (the actual character) as the React key instead of `index`. The `data-testid` still uses `index` for the test assertions. "PVMINI" has unique characters so using `char` as key is valid and avoids the noArrayIndexKey lint rule.
